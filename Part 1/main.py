@@ -4,7 +4,7 @@ def summator(x):
         if type(int(x)) is not int:
             raise TypeError
     except (ValueError, TypeError) as e:
-        print(' {} не является натуральным числом!'.format(x))
+        print(' {} СЌС‚Рѕ РЅРµ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ!'.format(x))
     else:
         s = 0
         for i in x:
@@ -14,9 +14,9 @@ def summator(x):
 
 
 def main():
-    y = input(' Введите натуральное чило: ')
+    y = input(' Р’РІРёРґРёС‚Рµ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ: ')
     z = summator(y)
-    print(' Сумма цифр числа {} равна {}'.format(y, z))
+    print(' РЎСѓРјРјР° С†РёС„СЂ С‡РёСЃР»Р° {} СЂР°РІРЅР° {}'.format(y, z))
 
-
-main()
+if __name__ == '__name__':
+    main()
