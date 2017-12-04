@@ -14,7 +14,7 @@ def summator(x):
 
 
 def main():
-    y = input(' Ввидите натуральное число: ')
+    y = input(' Введите натуральное число: ')
     z = summator(y)
     print(' Сумма цифр числа {} равна {}'.format(y, z))
 
