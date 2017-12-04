@@ -15,5 +15,5 @@ import pytest
                                                           '985', '995']),
                                        ((range(100, 10, -1)), ['92', '82', '76', '67', '53',
                                                                '41', '35', '29', '28', '14'])])
-def testing_summator_v1(a, result):
+def testing_fun(a, result):
     assert fun(a) == result
